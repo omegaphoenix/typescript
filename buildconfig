@@ -1,0 +1,3 @@
+[tsc -p tsconfig.json]
+out: lib/**/*.js
+src/**/*.ts
