@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "outDir": "./lib",
+    "module": "commonjs",
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "downlevelIteration": true,
+    "noEmitOnError": true,
+    "strict": true,
+    "declaration": true,
+    "inlineSourceMap": true,
+    "experimentalDecorators": true,
+    "baseUrl": "types",
+    "typeRoots": ["./node_modules/@types", "./typings"],
+    "target": "es2017",
+    "lib": ["es7"]
+  },
+  "include": ["./src", "./typings"],
+  "exclude": []
+}
